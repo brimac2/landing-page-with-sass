@@ -1,14 +1,65 @@
+body {
+  font-family: "Roboto Slab", serif;
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
 .container {
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
   display: block;
+  font-family: "Roboto Slab", serif;
+}
+
+.main-container {
+  padding: 40px 0;
+  background-color: #212630;
+  color: #fff;
+  justify-items: center;
+}
+
+.col-6 {
+  padding: 0 0 0 -10px;
+}
+
+.home-title {
+  font-size: 40px;
+  font-size: 700;
+  margin: 30px 0 20px;
+  color: #cd483d;
+}
+
+.b-text {
+  font-size: 1.25rem;
+  margin: 0 0 20px;
+  color: #fff;
+  padding-right: 25px;
+  line-height: 1.7;
+}
+
+.b-card {
+  padding: 40px;
+  text-align: center;
+  color: #fff;
+  background-color: #212630;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.b-card .b-title {
+  font-size: 27px;
+  font-weight: 700;
+  color: #f6f5f5;
+  margin: 0 0 15px;
+}
+.b-card .b-title .b-video {
+  margin: 0 auto 15px;
 }
 
 .nav-header {
   padding: 0 0 10px;
   background-color: #fff;
+  font-family: "Roboto Slab", serif;
 }
 .nav-header .container {
   padding: 10px 15px 15px;
