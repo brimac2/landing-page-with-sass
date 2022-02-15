@@ -1,7 +1,13 @@
+.center-block, .b-video-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 body {
   font-family: "Roboto Slab", serif;
   font-size: 1rem;
-  line-height: 1.25rem;
+  line-height: 1.25;
 }
 
 .container {
@@ -20,8 +26,10 @@ body {
   justify-items: center;
 }
 
-.col-6 {
-  padding: 0 0 0 -10px;
+.splitter-container {
+  padding: 40px 0 50px;
+  background-color: #f6f5f5;
+  text-align: center;
 }
 
 .home-title {
@@ -92,6 +100,62 @@ body {
 }
 .nav-menu .nav-menu-list .nav-item .nav-a:hover {
   color: #CD483C;
+}
+
+.b-video-img {
+  width: 100%;
+  padding: 20px 0 30px;
+}
+
+.img-item {
+  display: inline-block;
+  margin: 0 30px 40px;
+  vertical-align: middle;
+}
+
+.img-list {
+  margin: 0 -20px -40px;
+  padding: 0;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: normal;
+  line-height: 1.25;
+  text-align: center;
+  font-size: 1rem;
+  vertical-align: middle;
+  transition: all, 0.2s ease-in-out;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+
+button.buy-btn-lg {
+  padding: 10px 25px;
+  font-size: 1rem;
+  border-radius: 10px;
+  background-color: #f6f5f5;
+}
+
+button.buy-btn-md {
+  padding: 12px 35px;
+  font-size: 1.25rem;
+  border-radius: 30px;
+  width: 100%;
+}
+
+.btn-dark {
+  active-border: #ecbab5;
+  color: #CD483C;
+  background-color: #f6e0de;
+  border-color: #f6f5f5;
+}
+.btn-dark:hover {
+  color: #000;
+  background-color: #000;
+  border-color: #000;
 }
 
 /*# sourceMappingURL=styles.css.map */
