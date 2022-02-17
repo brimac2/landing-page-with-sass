@@ -1,15 +1,13 @@
 =btn-variant($color, $background, $border)
-    $active-background: darken($background, 10%)
-    active-border: darken($background, 10%)
-    
+    $active-background: darken($background, 5%)
+    $active-border: darken($border, 5%)
     color:              $color
     background-color:   $background
     border-color:       $border 
     &:hover
-        color: $black
-        background-color: $black
-        border-color: $black
-
+        font-color: $color
+        background-color: $active-background
+        border-color: $active-border
 
 
 
