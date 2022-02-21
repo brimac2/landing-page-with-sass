@@ -12,46 +12,12 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
   </head>
 
   <body>
-    <header class="nav-header">
-      <div class="container">
-        <div class="row">
-          <div class="col-3">
-            <img
-              class="logo"
-              src="assets/KFS-DRK.png"
-              alt="Kick Flip Studios Image"
-            />
-          </div>
-          <div class="col-9">
-            <div class="nav-menu">
-              <ul class="nav-menu-list">
-                <li class="nav-item">
-                  <a class="nav-a" href="/index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-a" href="">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-a" href="">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-a" href="">Pricing</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-a" href="">Faq</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-a" href="">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
+    <header-component></header-component>
 
     <section class="main-container">
       <div class="container">
@@ -201,33 +167,6 @@
       </div>
     </section>
 
-    <footer id="page-footer" class="lego-footer">
-      <div class="footer-container">
-        <div class="footer-wrapper">
-          <a class="footer-link" href="#">Blog</a>
-          <a class="footer-link" href="#">Getting Started</a>
-          <a class="footer-link" href="#">Support</a>
-          <a class="footer-link" href="#">Terms of Service</a>
-        </div>
-      </div>
-    </footer>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
+    <footer-component></footer-component>
   </body>
 </html>
