@@ -229,6 +229,10 @@ button.buy-btn-lg:hover {
   border-color: #bf3d31;
 }
 
+#exampleInputEmail1 {
+  width: 250px;
+}
+
 .modal-title {
   font-size: 1.25rem;
   color: #212630;
