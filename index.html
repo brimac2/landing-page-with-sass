@@ -1,168 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Landing page</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
   </head>
 
-<body>
-<header class="nav-header">
-    <div class="container">
-      <div class="row">
-        <div class="col-3">
-          <img class="logo" src="assets/KFS-DRK.png" alt="Kick Flip Studios Image">
-        </div>
-        <div class="col-9">
-          <div class="nav-menu">
-            <ul class="nav-menu-list">
-              <li class="nav-item">
-                <a class="nav-a" href="/index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-a" href="">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-a" href="">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-a" href="">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-a" href="">Faq</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-a" href="">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header> 
- 
-  <section class="main-container">
-    <div class="container">
-      <div class="row">
-        <div class="col-1"></div>
-        <div class="col-6">
-          <h1 class="home-title">
-            <b>My awesome Landing Page</b>
-          </h1>
-          <p class="b-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the
-            industry's
-            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-            make a type specimen book</p>
-          <a href="https://www.lipsum.com">
-          <button class="btn buy-btn-lg" type="submit" name="button">Learn More</button></a>
-        </div>
-        <div class="col-4">
-          <div class="b-card">
-            <div class="b-title">
-              Watch Our Video
-            </div>
-            <div class="b-video">
-              <img class="b-video-img" src="assets/KFSmd.jpg" alt="KF studios">
-            </div>
-            <p class="card-text">
-              It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-              essentially
-              unchanged.
-            </p>
+  <body>
+    <header-component></header-component>
 
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary buy-btn-md"  name="button" data-toggle="modal" data-target="#label">View Here</button>
-        
-            <!-- Modal -->
-        <div class="modal fade" id="label" tabindex="-1" role="dialog" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title" id="label">Check this out!</h1>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
+    <section class="main-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="col-6">
+            <h1 class="home-title">
+              <b>My awesome Landing Page</b>
+            </h1>
+            <p class="b-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book
+            </p>
+            <a href="https://www.lipsum.com">
+              <button class="btn buy-btn-lg" type="submit" name="button">
+                Learn More
+              </button></a
+            >
+          </div>
+          <div class="col-4">
+            <div class="b-card">
+              <div class="b-title">Watch Our Video</div>
+              <div class="b-video">
+                <img
+                  class="b-video-img"
+                  src="assets/KFSmd.jpg"
+                  alt="KF studios"
+                />
               </div>
-              <div class="modal-body">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe src="https://www.youtube.com/embed/9siogRgZo3Y" frameborder="0" allow="accelerometer" allowfullscreen></iframe>
+              <p class="card-text">
+                It has survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged.
+              </p>
+
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-primary buy-btn-md"
+                name="button"
+                data-toggle="modal"
+                data-target="#label"
+              >
+                View Here
+              </button>
+
+              <!-- Modal -->
+            </div>
+          </div>
+          <div
+            class="modal fade"
+            id="label"
+            tabindex="-1"
+            role="dialog"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title" id="label">Check this out!</h1>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe
+                      src="https://www.youtube.com/embed/9siogRgZo3Y"
+                      frameborder="0"
+                      allow="accelerometer"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-  </section>
-  <section class="splitter-container">
-    <div class="container">
-      <div class="row">
-        <div class="col-1"></div>
-        <div class="col-10">
-          <div class="img-list">
-            <img class="img-item" src="assets/KFS-DRK.png" alt="">
-            <img class="img-item" src="assets/KFS-LT.png" alt="">
-            <img class="img-item" src="assets/KFS-DRK.png" alt="">
-          </div>
-        </div>
       </div>
-    </div>
-  </section>
-  <section class="about-container">
-    <div class="container">
-      <div class="row">
-        <div class="col-4">
-          <div class="img-big">
-            <img class="img-gear" src="assets/gear.png" alt="">
-          </div>
-        </div>
-        <div class="col-6">
-          <div class="about-title">
-            <h2><b class="la">DEVSLOPES TAUGHT ME TO SASS<br>UP MY STUFF</b></h2>
-          </div>
-          <div class="about-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
-            piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
-            professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur,
-            from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the
-            undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
-            (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
-            ethics, very popular during the Renaissance.</p>
-          </div>
-          <form>
-            <div class="form-group">
-              <label for="exampleInputEmail1">If you want to get HOT deal please enter your email here! &#128561 </label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-              <small id="emailHelp" class="form-text text-muted"></small>
+    </section>
+    <section class="splitter-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="col-10">
+            <div class="img-list">
+              <img class="img-item" src="assets/KFS-DRK.png" alt="" />
+              <img class="img-item" src="assets/KFS-LT.png" alt="" />
+              <img class="img-item" src="assets/KFS-DRK.png" alt="" />
             </div>
-          <button class="btn btn-third">SUBMIT</button>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+    <section class="about-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <div class="img-big">
+              <img class="img-gear" src="assets/gear.png" alt="" />
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="about-title">
+              <h2>
+                <b class="la">DEVSLOPES TAUGHT ME TO SASS<br />UP MY STUFF</b>
+              </h2>
+            </div>
+            <div class="about-text">
+              Contrary to popular belief, Lorem Ipsum is not simply random text.
+              It has roots in a piece of classical Latin literature from 45 BC,
+              making it over 2000 years old. Richard McClintock, a Latin
+              professor at Hampden-Sydney College in Virginia, looked up one of
+              the more obscure Latin words, consectetur, from a Lorem Ipsum
+              passage, and going through the cites of the word in classical
+              literature, discovered the undoubtable source. Lorem Ipsum comes
+              from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
+              Malorum" (The Extremes of Good and Evil) by Cicero, written in 45
+              BC. This book is a treatise on the theory of ethics, very popular
+              during the Renaissance.
+            </div>
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1"
+                  >If you want to get HOT deal please enter your email here!
+                  😱</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Enter email"
+                />
+                <small id="emailHelp" class="form-text text-muted"></small>
+              </div>
+              <button class="btn btn-third">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<footer id="page-footer" class="lego-footer">
-<div class="footer-container">
-  <div class="footer-wrapper">
-<a class="footer-link" href="#">Blog</a>
-<a class="footer-link" href="#">Getting Started</a>
-<a class="footer-link" href="#">Support</a>
-<a class="footer-link" href="#">Terms of Service</a>
-</div>
-</div>
-</footer>
-
-
-
-<!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-
-</body>
+    <footer-component></footer-component>
+  </body>
 </html>
