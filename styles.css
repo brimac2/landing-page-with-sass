@@ -89,6 +89,7 @@ body {
   padding: 25px 0 40px;
   position: relative;
   overflow: hidden;
+  font-family: "Roboto Slab", serif;
 }
 
 .footer-container {
